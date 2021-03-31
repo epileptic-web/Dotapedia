@@ -1,0 +1,311 @@
+.skills {
+    display: grid;
+    margin-block-start: 50px;
+    
+    
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    /*background-color: cadetblue;*/
+    grid-column-gap: 100px;
+    grid-row-gap: 100px;
+}
+
+
+
+
+
+.MB {
+    grid-area: m;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    background-color:  rgb(60, 69, 79);
+    color:white;
+    
+}
+
+
+.blink {
+    grid-area: b;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    background-color:  rgb(60, 69, 79);
+    color:white;
+}
+
+
+
+.conterSpell {
+    grid-column-start: 3;
+    grid-row-start: 2;
+    background-color: rgb(60, 69, 79);
+}
+
+
+.ultimate {
+    grid-column-start: 4;
+    grid-row-start: 2;
+    background-color: rgb(60, 69, 79);
+}
+
+ 
+
+
+
+
+
+       .AganimScepter{
+    margin-block-start: 50px;
+    background-color: rgb(60, 69, 79);
+    width: 305px;
+}
+        .AganimShard{
+    margin-block-start: 20px;
+    background-color: rgb(60, 69, 79);
+    width: 305px;
+}
+
+
+
+
+
+.itemsHero {
+    display: grid;
+    margin-block-start: 40px;
+    grid-template-rows: 1fr 1fr 1fr 50px; 
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px;
+}
+.early {
+    
+    margin-block-start: 20px;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: auto;
+    
+    margin-right: 20px;
+    grid-auto-rows: auto;
+}
+.earlyText {
+    
+    background-color:rgb(60, 69, 79);
+    margin-block-start: 20px;
+    grid-row-start: 1.5;
+    margin-right: 20px;
+    color: white;
+    width: 100px;
+}
+
+.mid {
+    
+    margin-block-start: 20px;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: auto;
+    grid-auto-rows: auto;
+}
+.midText {
+    
+    background-color:rgb(60, 69, 79);
+    margin-block-start: 20px;
+    grid-row-start: 2.5;
+    color: white; 
+    margin-right: 20px;
+    width: 100px;
+}
+.late {
+    background-color: rgb(60, 69, 79);
+    margin-block-start: 20px;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 1;
+}
+.lateText {
+    background-color:rgb(60, 69, 79);
+    margin-block-start: 20px;
+    grid-row-start: 3.5;
+    color: white;
+    margin-right: 20px;
+    width: 100px;
+}
+
+
+
+
+
+
+.others {
+    display: grid;
+    grid-template-columns: repeat(6, 100px);
+}
+.otherText {
+    background-color: rgb(60, 69, 79);
+    margin-block-start: 20px;
+    color: white;
+}
+
+
+
+
+
+.Talents {
+    display: grid;
+    margin-block-start: 50px;
+    grid-template-columns: 1fr 10fr;
+    
+}
+
+.stats {
+    display: grid;
+    margin-block-start: 80px;
+    border: 1px solid;
+    grid-template-columns: repeat(3, 1fr);
+   
+    background-color: rgb(60, 69, 79); 
+    
+}
+
+
+
+.block {
+    display: grid;
+    margin-block-start: 100px;
+    border: 1px solid;
+    grid-template-columns: repeat(19, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: rgb(60, 69, 79);   
+}
+.block1{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color:  rgb(28, 36, 45);
+    color: white;
+   margin-left: 15px;
+   margin-block-start: 30px;
+}
+
+
+
+.srcAnti {
+    width: 100%;
+    height: 20%;
+}
+
+.name {
+    grid-column-start: 1 ;
+    grid-row-start: 1;
+}
+
+
+
+
+.header {
+    display: grid;
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    z-index: 51;
+    position:fixed;
+   
+}
+
+.header1 {
+   color: white;
+    margin-right: 200px;
+}
+
+.header1.active {
+   color: red;
+    margin-right: 200px;
+}
+
+.homeheader {
+    margin:50px;
+    color: blue;
+
+}
+
+
+
+.Сила {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 50px;
+    margin-block-end: 150px;
+}
+
+.СилаАтрибут {
+    background-color: rgb(60, 69, 79);  
+    height: 60px;
+    margin-block-end: 30px;
+}
+
+.Agility {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-column-gap: 100px;
+    grid-row-gap: 50px;
+    margin-block-end: 150px;
+}
+.AgilityAtrebut {
+    background-color: rgb(60, 69, 79);  
+    margin-block-end: 30px;
+}
+
+
+.Intellect {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-column-gap: 100px;
+    grid-row-gap: 50px;
+    margin-block-end: 150px;
+}
+.IntellectAtrebut {
+    background-color:rgb(60, 69, 79);
+    height: 60px;
+    margin-block-end: 30px;
+}
+
+.burger {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: gray;
+    position:fixed;
+    width: 100%;
+    z-index: 50;
+}
+
+.burger-btn {
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+    position: relative;
+    cursor: pointer;
+}
+.burger-btn:before {
+    content: '';
+    position:absolute;
+    top: 0;
+    width: 30px;
+    background-color: black;
+    height: 5px;
+    
+}
+.burger-btn span {
+    position:absolute;
+    top: 10px;
+    width: 30px;
+    background-color: black;
+    height: 5px;
+}
+.burger-btn:after {
+    content: '';
+    position: absolute;
+    top: 20px;
+    background-color: black;
+    height: 5px;
+     width: 30px;
+}
